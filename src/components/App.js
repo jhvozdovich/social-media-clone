@@ -1,12 +1,18 @@
 import React from "react";
 import Header from "./Header";
-import Profile from "./Profile";
+import LeftBar from "./LeftBar";
+import Feed from "./Feed";
+import Friends from "./Friends";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <Profile />
+      <div class="section">
+        <LeftBar />
+        <Feed />
+        <Friends />
+      </div>
     </React.Fragment>
   )
 }

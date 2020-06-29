@@ -9,9 +9,9 @@ function SearchBar() {
           <input class="search-box tweet" type="text" placeholder="Tweet" name="search"></input>
         </form>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
+      <br />
+      <br />
+      <br />
       <hr />
     </React.Fragment>
   );

@@ -1,5 +1,6 @@
 body {
   margin: 10px;
+  color: rgb(100, 100, 100);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -29,7 +30,7 @@ code {
 
 .search-box{
    padding: 10px;
-   border: 2px solid #2EABFF;
+   border: 2px solid #3399FF;
    border-radius: 15px;
 }
 
@@ -38,8 +39,83 @@ code {
   margin-left: 5px;
 }
 
+.section {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  flex: 200px;
+}
+
+.profile-section {
+  /* padding-right: 10px;
+  padding-left: 10px; */
+  border: 2px solid rgb(100, 100, 100);
+  text-align: center;
+}
+
 .cover-photo{
-  width: 30%;
-  height: 200px;
-  background-color: rgb(66, 189, 234);
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 150px;
+  background-color: #3399FF;
+}
+
+.profile-text {
+  padding: 10px;
+}
+
+.profile-links {
+  padding-right: 12px;
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  overflow-wrap: break-word;
+}
+
+#userName {
+  text-align: right;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#profile-pic{
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+
+@media (min-width: 500px) {
+  /* #profile-pic{
+    position: fixed;
+    top: 200px;
+    left: 20px
+  } */
+}
+
+.description-section {
+  border: 2px solid rgb(100, 100, 100);
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+
+.left-bar {
+  flex: 1;
+}
+
+.feed-section {
+  border: 2px solid rgb(100, 100, 100);
+  text-align: center;
+  padding: 10px;
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.friends-section {
+  flex: 1;
+  border: 2px solid rgb(100, 100, 100);
+  text-align: center;
+  padding: 10px;
 }
