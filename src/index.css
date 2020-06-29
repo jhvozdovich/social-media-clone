@@ -107,7 +107,7 @@ code {
 .feed-section {
   border: 2px solid rgb(100, 100, 100);
   text-align: center;
-  padding: 10px;
+  /* padding: 10px; */
   flex: 1;
   margin-left: 10px;
   margin-right: 10px;
@@ -118,4 +118,59 @@ code {
   border: 2px solid rgb(100, 100, 100);
   text-align: center;
   padding: 10px;
+}
+
+.post-box{
+   padding: 10px;
+   border: 2px solid #3399FF;
+   margin: 10px;
+}
+
+.new-post {
+  background-color: #A1D0FF;
+  padding: 8px;
+}
+
+#red-box {
+  padding: 4px;
+  width: 40px;
+  height:40px;
+  background-color: #660000;
+  margin-top: 8px;
+  margin-left: 50px;
+  float: left;
+}
+
+.post-div {
+  border-top: 2px solid rgb(100, 100, 100);
+}
+
+.post-icon{
+  /* width: 75%; */
+  float: left;
+  margin: 10px;
+}
+
+.post-username{
+  font-weight: bold;
+  text-align: left;
+}
+
+.post-text{
+  overflow: hidden;
+  text-align: left;
+}
+
+.button {
+  background-color: #0058B0;
+  font-size: 16px;
+  padding: 10px 24px;
+  margin: 5px;
+  color: white;
+  border: none;
+  float: left;
+}
+
+.friends-section{
+  text-align: left;
 }
