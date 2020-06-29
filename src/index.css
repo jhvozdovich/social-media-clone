@@ -30,10 +30,16 @@ code {
 .search-box{
    padding: 10px;
    border: 2px solid #2EABFF;
-   border-radius: 12px;
+   border-radius: 15px;
 }
 
 .tweet {
   width: 70px;
   margin-left: 5px;
+}
+
+.cover-photo{
+  width: 30%;
+  height: 200px;
+  background-color: rgb(66, 189, 234);
 }
