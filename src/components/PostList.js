@@ -37,7 +37,6 @@ const masterPostList = [
 function PostList() {
   return (
     <React.Fragment>
-      <hr />
       {masterPostList.map((post, index) =>
         <Post userName={post.userName}
           icon={post.icon}

@@ -1,25 +1,21 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
-function Friends() {
+function Friends(props) {
   return (
     <React.Fragment>
-      <div class="friends-section">
-        <h4> Zombie ipsum </h4>
-        <br />
-        <h4> Quibusdam aliquam</h4>
-        <button class="button">Button</button>
-        <br />
-        <h4> Quibusdam aliquam</h4>
-        <button class="button">Button</button>
-        <br />
-        <h4> Quibusdam aliquam</h4>
-        <button class="button">Button</button>
-        <br />
-        <h4> Quibusdam aliquam</h4>
+      <div class="friend-div">
+        <div class="friend-icon">{props.icon}</div>
+        <p class="friend-username">{props.userName}</p>
         <button class="button">Button</button>
       </div>
-    </React.Fragment>
+    </React.Fragment >
   )
+}
+
+Friends.propTypes = {
+  userName: PropTypes.string.isRequired,
+  icon: PropTypes.element.isRequired,
 }
 
 export default Friends;

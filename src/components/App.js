@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import LeftBar from "./LeftBar";
 import Feed from "./Feed";
-import Friends from "./Friends";
+import FriendList from "./FriendList";
 
 function App() {
   return (
@@ -11,7 +11,9 @@ function App() {
       <div class="section">
         <LeftBar />
         <Feed />
-        <Friends />
+        <div class="friend-section">
+          <FriendList />
+        </div>
       </div>
     </React.Fragment>
   )
