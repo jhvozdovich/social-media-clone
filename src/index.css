@@ -137,7 +137,8 @@ code {
 }
 
 .friend-icon {
-  margin: 10px;
+  float: left;
+  margin-right: 15px;
 }
 
 .post-username{
@@ -158,7 +159,7 @@ code {
   background-color: #0058B0;
   font-size: 16px;
   padding: 10px 24px;
-  margin: 5px;
+  margin: 10px;
   color: white;
   border: none;
   justify-content: center;
